@@ -1,0 +1,7 @@
+{
+  "ambientDependencies": {
+    "core-js": "registry:dt/core-js#0.0.0+20160317120654",
+    "bootstrap": "github:DefinitelyTyped/DefinitelyTyped/bootstrap/bootstrap.d.ts#56295f5058cac7ae458540423c50ac2dcf9fc711",
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#56295f5058cac7ae458540423c50ac2dcf9fc711"
+  }
+}

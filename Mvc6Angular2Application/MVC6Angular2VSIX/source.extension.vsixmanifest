@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="MVC6Angular2VSIX.Jacquemin.ddc2ddc9-90c5-4969-857a-d1d78c1d87dc" Version="1.0" Language="en-US" Publisher="ID" />
+    <DisplayName>Angular2 Mvc6 sample application</DisplayName>
+    <Description xml:space="preserve">Sample Angular 2 and Mvc 5 application. (with bootstrap, typescript and service)</Description>
+    <Icon>Logo.jpg</Icon>
+    <PreviewImage>preview.jpg</PreviewImage>
+    <Tags>http, service, TypeScript, MVC6, Angular2,bootstrap</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,15.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Mvc6Angular2Application.zip" />
+  </Assets>
+</PackageManifest>
